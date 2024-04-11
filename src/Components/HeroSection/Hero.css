@@ -1,0 +1,62 @@
+.hero-section {
+  gap: 0px;
+  position: relative;
+}
+
+.hero-img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.content-web {
+  width: 630px;
+  height: 306px;
+  padding: 24px 40px 32px 40px;
+  gap: 20px;
+  background: linear-gradient(256.73deg, #1cbddd 27.86%, #4dca79 100%);
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-btn {
+  width: 214px;
+  height: 38px;
+  padding: 12px 20px 12px 20px;
+  gap: 8px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  background: #f28d35;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #ffffff;
+  border: none;
+  outline: none;
+}
+
+@media screen and (max-width: 768px) {
+  .content-web {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1441px) and (max-width: 1920px) {
+  .content-web {
+    top: 60%;
+    left: 5%;
+  }
+}

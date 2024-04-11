@@ -1,0 +1,36 @@
+.footer-left-corner {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.footer-left-corner img {}
+
+.page-footer {
+    background-color: #6B3CC9;
+    flex-direction: column;
+    font-size: 14px;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-copyright a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-container {}
+
+.paragraph {
+    width: 413px;
+}
+
+.hr-class {
+    width: 50%;
+    height: 5px;
+    background: #ffffff;
+    color: #ffffff;
+    margin-top: 20px;
+}

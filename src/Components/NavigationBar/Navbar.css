@@ -1,0 +1,26 @@
+.custom-navbar {
+  background: #6B3CC9;
+  padding: 26px 40px 26px 40px;
+  height: 77px;
+  justify-content: right;
+  display: flex;
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+}
+
+.logo-img {
+  height: 36px;
+  object-fit: cover;
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .navbar-collapse {
+    background: white !important;
+  }
+
+}

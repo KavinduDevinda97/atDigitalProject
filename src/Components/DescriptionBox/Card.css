@@ -1,0 +1,64 @@
+.image {
+  width: 350px;
+  height: 350px;
+}
+
+.card-body-wrapper {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+
+}
+
+.title {
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #6b3cc9;
+
+
+}
+
+.cards-center {
+  display: flex;
+  margin-bottom: auto;
+  align-items: center;
+  justify-content: space-between;
+
+
+}
+
+.paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+
+}
+
+.btn-wrapper {
+  width: 129px;
+  height: 38px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: -0.02em;
+  border-radius: 4px 0px 0px 0px;
+  padding: 12px 20px 12px 20px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  background: #f28d35;
+  color: #ffffff;
+
+}
+
+@media screen and (max-width: 768px) {
+  .image {
+    width: 200px;
+    height: 200px;
+  }
+
+}
